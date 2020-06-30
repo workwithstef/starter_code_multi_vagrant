@@ -31,3 +31,14 @@ sudo npm install
 
 # start nodejs
 # sudo npm start &
+
+# INSTALLING ANSIBLE
+cd ~
+# add project's PPA (personal package archive)
+sudo apt-add-repository -y ppa:ansible/ansible
+
+sudo apt-get -y update
+# installs ansible software
+sudo apt-get -y install ansible
+
+sudo apt-get -y install python-software-properties
