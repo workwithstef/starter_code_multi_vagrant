@@ -25,7 +25,7 @@ describe('Homepage', function() {
   });
 });
 
-describe('Blog', function() {
+// describe('Blog', function() {
   it('should display the list of posts at /posts GET', function(done) {
     chai.request(server)
       .get('/posts')
